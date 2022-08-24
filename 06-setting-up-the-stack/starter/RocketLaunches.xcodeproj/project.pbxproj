@@ -17,6 +17,8 @@
 		AEF7FB8227C1856F000CBF46 /* LaunchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF7FB8127C1856F000CBF46 /* LaunchesView.swift */; };
 		AEF7FB8627C18583000CBF46 /* LaunchCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF7FB8527C18583000CBF46 /* LaunchCreateView.swift */; };
 		AEF7FB8A27C18598000CBF46 /* LaunchStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF7FB8927C18598000CBF46 /* LaunchStatusView.swift */; };
+		F4C78FD528B6C96B009E8274 /* RocketLaunches.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4C78FD328B6C96B009E8274 /* RocketLaunches.xcdatamodeld */; };
+		F4C78FD728B6C9C2009E8274 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C78FD628B6C9C2009E8274 /* Persistance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		AEF7FB8127C1856F000CBF46 /* LaunchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesView.swift; sourceTree = "<group>"; };
 		AEF7FB8527C18583000CBF46 /* LaunchCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCreateView.swift; sourceTree = "<group>"; };
 		AEF7FB8927C18598000CBF46 /* LaunchStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchStatusView.swift; sourceTree = "<group>"; };
+		F4C78FD428B6C96B009E8274 /* RocketLaunches.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RocketLaunches.xcdatamodel; sourceTree = "<group>"; };
+		F4C78FD628B6C9C2009E8274 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Persistance.swift; path = RocketLaunches/Persistance.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 				18D775DA22AD963800AE281E /* LaunchScreen.storyboard */,
 				18D775CE22AD944400AE281E /* Info.plist */,
 				18D775C822AD944400AE281E /* Preview Content */,
+				F4C78FD328B6C96B009E8274 /* RocketLaunches.xcdatamodeld */,
 			);
 			path = RocketLaunches;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 		AEF7FB7827C184C1000CBF46 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F4C78FD628B6C9C2009E8274 /* Persistance.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D775C522AD944300AE281E /* ContentView.swift in Sources */,
+				F4C78FD728B6C9C2009E8274 /* Persistance.swift in Sources */,
+				F4C78FD528B6C96B009E8274 /* RocketLaunches.xcdatamodeld in Sources */,
 				AEF7FB8227C1856F000CBF46 /* LaunchesView.swift in Sources */,
 				1839F4B025190F2A00BB00F1 /* RocketLaunchesApp.swift in Sources */,
 				AE1D5CE827C2A1120033125A /* LaunchDetailView.swift in Sources */,
@@ -527,6 +535,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F4C78FD328B6C96B009E8274 /* RocketLaunches.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F4C78FD428B6C96B009E8274 /* RocketLaunches.xcdatamodel */,
+			);
+			currentVersion = F4C78FD428B6C96B009E8274 /* RocketLaunches.xcdatamodel */;
+			path = RocketLaunches.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 18D775B522AD944300AE281E /* Project object */;
 }
