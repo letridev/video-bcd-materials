@@ -87,16 +87,16 @@ class RocketLaunchesTests: XCTestCase {
 //    }
 //  }
 
-  func testGetAllLaunches() async throws {
-    do {
-      let all = try await SpaceXAPI.getAllLaunches()
-      for item in all {
-        print("launch is \(item.name)")
-      }
-    } catch {
-      print("error \(error)")
-    }
-  }
+//  func testGetAllLaunches() async throws {
+//    do {
+//      let all = try await SpaceXAPI.getAllLaunches()
+//      for item in all {
+//        print("launch is \(item.name)")
+//      }
+//    } catch {
+//      print("error \(error)")
+//    }
+//  }
 
 //  func testGetAllLaunchPads() async throws {
 //    do {
